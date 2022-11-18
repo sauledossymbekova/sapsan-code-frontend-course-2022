@@ -1,0 +1,15 @@
+<!-- TODO comments: -->
+<!-- ctrl / on windows -->
+<!-- cmd / on mac -->
+
+<!-- TO SAVE FILES -->
+<!-- ctrl s -->
+<!-- cmd s -->
+
+// to create HTML Template
+! tab
+
+// Format your code with Prettier 
+option shift F (on Mac)
+alt shift F (on Windows)
+ctrl P
