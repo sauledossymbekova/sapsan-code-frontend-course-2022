@@ -40,6 +40,8 @@
     - ul, li связанные тэги
         ul type
     - ol, li
+
+    
     - <a> href target
     - многостраничный сайт href="some.html"
     - <img> src, внешняя ссылка, локальная ссылка
