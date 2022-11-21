@@ -1,0 +1,31 @@
+<!-- чтобы сгенирировать шаблон -->
+! tab
+
+<!-- КОММЕНТАРИЙ -->
+<!-- CTRL / -->
+<!-- CMD / -->
+
+<!-- ТЭГИ -->
+<!-- название тэга tab -->
+<!-- название тэга enter -->
+
+
+<!-- СОХРАНИТЬ: -->
+<!-- CTRL S -->
+<!-- CMD S -->
+
+Prettier 
+option shift F
+ctrl shift P
+
+TO COPY
+cmd c 
+ctrl c 
+
+TO PASTE 
+cmd v
+ctrl v
+
+Выделить все
+cmd a
+ctrl a
