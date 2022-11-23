@@ -1,0 +1,56 @@
+/* * {
+    background-color: black;
+} */
+
+/* selectors */
+/* tag name < class < id */
+
+
+body {
+    background-color:black;
+  font-weight: 900;
+  /* font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font: 14px Verdana, sans-serif;
+}
+
+div{
+    background-color: white;
+    margin: 50px;
+    padding: 20px;
+}
+h2 {
+  color: black;
+  /* background-color: black; */
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.gallery {
+    width: 200px;
+}
+
+#notcircle-img {
+    border-radius: 0%;
+    width: 100px;
+}
+
+ /* pseudoselectors */
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}

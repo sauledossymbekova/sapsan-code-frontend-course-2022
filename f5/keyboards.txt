@@ -12,4 +12,3 @@
 // Format your code with Prettier 
 option shift F (on Mac)
 alt shift F (on Windows)
-ctrl P
