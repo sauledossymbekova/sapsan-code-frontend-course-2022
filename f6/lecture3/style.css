@@ -1,0 +1,42 @@
+/* 
+      id > class > element tag
+*/
+
+/* FONT, IMAGE, one CLASS, one ID, Text */
+
+/* это глобальный селектор */
+/*          * {
+    }
+ */
+body {
+  background-color: lavender;
+  /* font: 600 20px Arial, Helvetica, sans-serif; */
+}
+#avatar {
+  /* height: auto; */
+  width: 100px;
+  border-radius: 50%;
+}
+img {
+  width: 150px;
+}
+.groups {
+  color: grey;
+  background-color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  /* word-spacing: 20px; */
+  /* letter-spacing: 30px; */
+}
+h2 {
+  background-color: grey;
+}
+.header {
+  background-color: red;
+  color: white;
+}
+#description {
+  background-color: aqua;
+  /* color: black; */
+}
