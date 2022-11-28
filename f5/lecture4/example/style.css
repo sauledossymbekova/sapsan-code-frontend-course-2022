@@ -1,0 +1,144 @@
+body {
+  background-color: black;
+  font-weight: 900;
+  /* font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font: 14px Verdana, sans-serif;
+}
+ul li{
+  list-style: circle;
+}
+.form-group{
+  text-align: center;
+  margin: 15px;
+}
+.container {
+  background-color: white;
+
+  /* Shorthand */
+  border-width: 5px;
+  border-style: solid;
+  border-color: blue;
+  /* border: 5px solid red; */
+
+  /* Width */
+  /* width: 500px; */
+  width: 80%;
+  /* max-width: 500px; */
+  margin: auto;
+  padding: 20px;
+
+  box-sizing: border-box;
+}
+
+.info {
+  /* border: 5px solid red; */
+
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.info div{
+  margin-left: 25px;
+}
+.group {
+  /* border: 5px solid red; */
+  border-radius: 30px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.back-bisq {
+  background-color:bisque;
+}
+
+.back-skyblue {
+  background-color: skyblue;
+}
+
+.back-green {
+  background-color: darkseagreen;
+}
+
+/* Box Model */
+.some-class {
+  width: 150px;
+
+  /* color: #111 */
+}
+
+.some-class div {
+  float: left;
+  border: 5px solid red;
+  width: 50px;
+  height: 50px;
+  /* box-sizing: border-box; */
+  /* margin-right: 10px; */
+}
+
+/* .some-class div:last-child{
+  margin-right: 0px;
+}
+
+.some-class div:first-child{
+  margin-left: 10px;
+} */
+
+/* Margin Collapsing */
+.some-class div:nth-child(2) {
+  /* margin-right: 50px; */
+}
+
+.some-class div:nth-child(3) {
+  /* margin-left: 10px; */
+}
+
+/* Vertically */
+.some-class div:nth-child(1) {
+  margin-bottom: 50px;
+}
+
+.some-class div:nth-child(3) {
+  margin-top: 10px;
+}
+
+h2 {
+  color: black;
+  /* background-color: black; */
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+img {
+  width: 150px;
+  border-radius: 50px;
+}
+
+.gallery {
+  width: 200px;
+}
+
+#notcircle-img {
+  border-radius: 0%;
+  width: 100px;
+}
+
+/* pseudoselectors */
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+button:hover {
+  opacity: 0.1;
+}

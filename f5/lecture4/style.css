@@ -1,0 +1,18 @@
+/* ID > Class > h2 > *(global) */
+
+/* Global selector */
+* {
+    background-color: black;
+}
+/* Tag name selector */
+h2 {
+    background-color:  white;
+}
+/* Class Selector */
+.header {
+    background-color: red;
+}
+/* ID Selector */
+#hello-world {
+    background-color: blue;
+}

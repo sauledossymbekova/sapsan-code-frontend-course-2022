@@ -1,14 +1,39 @@
-<!-- TODO comments: -->
-<!-- ctrl / on windows -->
-<!-- cmd / on mac -->
+.classname
+. tab
+div#
 
-<!-- TO SAVE FILES -->
-<!-- ctrl s -->
-<!-- cmd s -->
+<!-- Pretiier - Code formatter -->
+OPT Shift F - mac
+ctrl shift P - windows
 
-// to create HTML Template
+<!-- чтобы сгенирировать шаблон -->
 ! tab
 
-// Format your code with Prettier 
-option shift F (on Mac)
-alt shift F (on Windows)
+<!-- tagnaming tab -->
+h1 tab
+
+<!-- КОММЕНТАРИЙ -->
+CMD /
+CTRL /
+
+<!-- ТЭГИ -->
+название тэга tab
+или
+название тэга enter
+
+
+<!-- СОХРАНИТЬ: -->
+CMD S
+CTRL S
+
+<!-- Копировать -->
+cmd c 
+ctrl c 
+
+<!-- Вставить -->
+cmd v
+ctrl v
+
+<!-- Выделить все -->
+cmd a
+ctrl a
