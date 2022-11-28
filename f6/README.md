@@ -58,5 +58,72 @@
             input type
         label
 
+# 3
+- css
+    - что такое css, теория
+    - как смотреть через девтулс
+    - как подключить 
+        через инлайн
+        через тег style
+        через внешний файл
+    
+    - селекторы id > class > tag-name > *
+        tag name
+        id
+        class
+        global selector *
+
+    Примеры со свойствами
+        - font
+        - text
+        - image width, height, border-radius
+        - margin, padding, border
+    
+# 4
+- разница между хром дев и обычным
+
+- css детально
+    - Блочное разделение
+        разделить блоки по классам
+        задать: width, max-width, margin,
+    
+    - Box model 
+        https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model 
+        - padding
+        - border, border-width
+        - margin
+        - что будет если задавать несколько значений? на примере дев тулс
+        - top, bottom, left, right
+        
+        вложенности показать на примере
+            - как достать дочерние все элементы в другом?
+            - .some-class some-element
+            - .some-class > some-element
+            - размерность элемента
+            - box-sizing, float, 
+
+            - margin collapsing это? https://www.w3schools.com/css/tryit.asp?filename=trycss_margin_collapse 
+            <!-- - display-inline, inline-block,inline-table -->
+
+    как писать чисто?
+        - задать общие вещи ( img, font, a)
+        - разделить по блокам
+        - задать классы логически по разделам
+            padding, margin, border-radius
+        по свойству
+            background-color
+        по элементам (ul, ol, table)
+            - у списков есть свои дефолтные свойства (padding, list-style,)
+            - table имеет особенное отображение, на примере margin, pseudoselectors :nth-child()
+            - как стилизовать форму?
+                разделить логически
+
+        display чтобы все было не только вертикально
+        попробовать добавить чуть жизни от действия юзера 
+
+        позиционирование
+        media
+
+
 - Github
     - залить свой сайт
