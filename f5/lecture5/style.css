@@ -1,0 +1,271 @@
+body {
+  background-color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  text-align: center;
+}
+
+
+/* Стиль для фото */
+.my-photo {
+  width: 200px;
+  border-radius: 80px;
+  height: 200px;
+}
+
+.info {
+  display: flex;
+  padding: 30px;
+}
+
+
+@media (max-width: 500px) {
+  *{
+    font-size: 12px;
+  }
+  .info {
+    display: block;
+    text-align: center;
+    background-color: #0000ff;
+  }
+  .my-photo{
+    width: 150px;
+    height: 150px;
+  }
+  .container {
+  }
+}
+
+.info div {
+  margin-left: 30px;
+}
+.group {
+  padding: 25px 30px;
+  /* border: 5px solid red; */
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.back-skyblue {
+  background: skyblue;
+}
+
+.back-bisq {
+  background-color: bisque;
+}
+
+.back-green {
+  background-color: darkseagreen;
+}
+
+.list {
+  padding: 0px;
+  list-style: none;
+}
+
+.list li {
+  padding: 5px 20px;
+}
+
+.num-list {
+  padding: 0px 10px;
+  list-style-type: circle;
+}
+
+.table-list {
+}
+
+.table-list tr:first-child {
+  background-color: cornsilk;
+}
+/* .table-list tr:nth-child(1) {
+  background-color: cornsilk;
+}
+.table-list tr:nth-child(odd) {
+  background-color: gainsboro;
+} */
+.table-list tr:last-child {
+  background-color: cornsilk;
+}
+
+.form {
+  margin: 30px;
+  width: 400px;
+  margin: auto;
+}
+
+.form .form-group {
+  float: left;
+  width: 100%;
+  text-align: start;
+  margin: 20px;
+}
+
+.form-group:first-child {
+  text-align: start;
+}
+.form-group:last-child {
+  text-align: end;
+}
+
+.submit-button {
+  font-size: large;
+  font: inherit;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.submit-button:hover {
+  opacity: 0.8;
+}
+
+/* Стиль для ссылок */
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: green;
+}
+a:visited {
+  color: grey;
+}
+
+/* Position */
+/* 
+статичный static
+абсолютный absolute
+относительный relative
+фиксированный fixed
+липучий sticky
+ */
+
+/* position = parent родительский, box= child дочерный элемент*/
+.position {
+  border: 4px solid black;
+  padding: 20px;
+  /* position: absolute; */
+
+  /* margin-top: 40px; */
+
+  position: static;
+  height: 800px;
+  width: 500px;
+}
+/* absolute child > staic/default parent */
+/* absolute child < relative/absolute parent */
+/* fixed child > relative/absolute parent */
+/* absolute depends on content, relative don't */
+.box {
+  width: 50px;
+  height: 50px;
+  background: blue;
+  position: sticky;
+
+  /* ADD 4 properties that is available with absolute */
+  top: 0px;
+  left: 0px;
+  /* bottom: 180px;
+  right: 150px; */
+  /* Position sticky */
+
+  /* position: sticky;
+  top: 0px;
+  left: 0px; */
+  /* position: static; */
+
+  /* IF Position is absolute, remove padding from parent */
+  /* position: absolute;  */
+
+  /* Add absolute relatively to parent (absolute, relative)*/
+  /* top: 0px;
+  left: 0px; */
+
+  /* Position Fixed */
+  /* position: fixed; */
+  /* top: 0px; */
+  /*left: 0px;
+  width: 100%; */
+}
+
+/* p {
+  animation: name duration iteration-count direction;
+} */
+
+/* Animation */
+p {
+  /* равно нижнему */
+  /* animation: 3s infinite alternate slidein; */
+  /* Время выполнение */
+  animation-duration: 3s;
+  /* название анимации */
+  /* animation-name: slidein; */
+  /* Количество Итерации */
+  animation-iteration-count: infinite;
+  /* Направление анимации */
+  animation-direction: alternate;
+
+  /* If several values */
+  /* animation-name: fadeInOut, moveLeft300px, bounce;
+  animation-duration: 2.5s, 5s, 1s;
+  animation-iteration-count: 2, 1, 5; */
+  /* По очереди */
+  /* animation-duration: 2.5s, 5s;
+  animation-iteration-count: 2, 1; */
+}
+@keyframes slidein {
+  /* From 0% of animation, start of animation */
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  /* 75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  } */
+  /* To 100% of animation, end of animation */
+  to {
+    margin-left: 0%;
+    width: 100%;
+    transform: rotate(180deg);
+
+  }
+}
+
+.square {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #0000ff;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.square:hover {
+  background-color: #ffcccc;
+  width: 200px;
+  height: 200px;
+  transform: rotate(180deg);
+}
+/* 
+.animation-img {
+  transition: width 2s, height 2s, transform 5s;
+}
+
+.animation-img:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+} */

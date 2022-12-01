@@ -117,13 +117,17 @@
             - table имеет особенное отображение, на примере margin, pseudoselectors :nth-child()
             - как стилизовать форму?
                 разделить логически
+# 5
 
-        display чтобы все было не только вертикально
-        попробовать добавить чуть жизни от действия юзера 
-
-        позиционирование
-        media
-
+- css detailed
+    - display чтобы все было не только вертикально
+    - попробовать добавить чуть жизни от действия юзера 
+    - позиционирование
+    https://developer.mozilla.org/ru/docs/Web/CSS/position
+    - flex-box https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    - media https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+    - animation 
+    https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes 
 
 - Github
     - залить свой сайт

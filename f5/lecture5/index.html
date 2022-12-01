@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <!-- Examples for position fixed, absolute, relative, default=static  -->
+     <!-- <div class="position">
+      <div class="box"></div>
+    </div>  -->
+      <h1>Hello World!</h1>
+      <a target="_blank" href="cv.html"><button>Main Page</button></a>
+      <a target="_blank" href="cv.html"><button>CV Page</button></a>
+
+      <div class="form back-bisq">
+        <form action="cv.html">
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="surname">Your Surname:</label>
+            <input type="text" id="surname" />
+          </div>
+          <div class="form-group">
+            <label for="email">EMAIL:</label>
+            <input type="email" id="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="password">PASSWORD:</label>
+            <input type="password" id="password" />
+          </div>
+
+          <div class="form-group">
+            <label for="date">Choose your date:</label>
+            <input type="date" id="date" />
+          </div>
+
+          <div class="form-group">
+            <label for="groups">Choose your group:</label>
+
+            <select name="groups" id="groups">
+              <option value="F4">F4 Monday Thursday</option>
+              <option value="F5">F5 Tuesday Friday</option>
+              <option value="F6">F5 Wednesday Saturday</option>
+            </select>
+          </div>
+          <input
+            class="submit-button back-skyblue"
+            type="submit"
+            value="SEND"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
