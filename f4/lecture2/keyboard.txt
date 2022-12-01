@@ -1,5 +1,0 @@
-Pretiier - Code formatter
-OPT Shift F
-
-tagnaming tab
-h1 tab

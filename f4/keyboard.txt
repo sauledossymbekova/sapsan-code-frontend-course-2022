@@ -1,0 +1,41 @@
+.classname
+. tab
+div#
+
+<!-- Pretiier - Code formatter -->
+OPT Shift F - mac
+ctrl shift P - windows
+
+<!-- чтобы сгенирировать шаблон -->
+! tab
+
+<!-- tagnaming tab -->
+h1 tab
+
+<!-- КОММЕНТАРИЙ -->
+CMD /
+CTRL /
+
+<!-- ТЭГИ -->
+название тэга tab
+или
+название тэга enter
+
+
+<!-- СОХРАНИТЬ: -->
+CMD S
+CTRL S
+
+<!-- Копировать -->
+cmd c 
+ctrl c 
+
+<!-- Вставить -->
+cmd v
+ctrl v
+
+<!-- Выделить все -->
+cmd a
+ctrl a
+
+
