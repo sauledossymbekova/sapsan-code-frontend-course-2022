@@ -1,0 +1,18 @@
+header {
+    background-color: aliceblue;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    button {
+      width: 70px;
+      height: 50px;
+      background: $primaryColor;
+      color: $textColor;
+      &:hover {
+        background: red;
+      }
+      &:first-child {
+        border: solid 5px;
+      }
+    }
+  }

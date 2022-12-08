@@ -1,0 +1,68 @@
+// Nestings, variables, import ...
+@use 'base';
+@use 'variables';
+@import './variables';
+@import './header';
+
+
+.inverse {
+  background-color: base.$primary-color;
+  color: white;
+}// means that over one file  
+// @import '../README.md'
+
+#some-id {
+    
+}
+body {
+  background-color: variables.$primaryColor;
+  color: white;
+  text-align: center;
+  font-size: $fontSize;
+  font-family: $font-family;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        background-color: aqua;
+
+    }
+    
+}
+
+.container {
+    margin: 10px;
+    background-color: $textColor;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+        background-color: $primaryColor;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+// example of attribute selectors:
+input[type="text"] {
+  background: skyblue;
+}
+
+// is equal to
+
+// header {
+//   background-color: aliceblue;
+//   padding: 30px;
+//   display: flex;
+//   justify-content: space-around;
+// }
+// header button {
+//   width: 70px;
+//   height: 50px;
+//   background: gray;
+// }
+// button:hover {
+//     background: red;
+// }
