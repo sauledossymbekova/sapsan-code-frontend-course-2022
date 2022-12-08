@@ -1,0 +1,32 @@
+@use 'variables';
+@use 'fontVars';
+
+@import "./variables";
+@import "./header";
+@import './main';
+
+body {
+  background-color: black;
+  color: white;
+  font-size: fontVars.$fontSize;
+  font-family: fontVars.$fontFam;
+  text-align: center;
+}
+
+h1 {
+  border: $border;
+}
+
+
+// header {
+//     background-color: aliceblue;
+//     padding: 30px;
+// }
+
+// header button {
+//     background-color: aquamarine;
+// }
+
+// header button:hover {
+//     background-color: red;
+// }

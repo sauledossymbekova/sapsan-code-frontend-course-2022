@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $mainColor;
+    padding: 30px;
+    button {
+      width: 70px;
+      height: 40px;
+      background-color: $secondColor;
+      &:hover {
+        background-color: red;
+      }
+    }
+  
+  }
