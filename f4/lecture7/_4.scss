@@ -1,0 +1,20 @@
+@mixin flexStart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+header {
+    @include flexStart();
+}
+
+@mixin flexStart($direction) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: $direction;
+}
+
+header {
+    @include flexStart(column);
+}

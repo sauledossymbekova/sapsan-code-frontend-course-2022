@@ -1,0 +1,9 @@
+$someColor: red;
+$fontSize: 16px;
+
+@import "./variables";
+
+.txt {
+  color: $fontColor;
+  font-size: $fontSize;
+}

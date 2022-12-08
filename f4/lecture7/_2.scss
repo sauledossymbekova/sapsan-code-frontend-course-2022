@@ -1,0 +1,48 @@
+
+$someColor: red;
+$fontSize: 16px;
+
+.txt {
+  font-size: $fontSize;
+}
+
+.block {
+  background: $someColor;
+  font-size: $fontSize;
+}
+
+.heading {
+  font-size: $fontSize;
+}
+
+.block:not(.first) {
+  background: red;
+}
+
+// Comment
+
+$bgColor: #000;
+$color: #cccccc;
+$blockWidht: 300px;
+$border: 4px solid red;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.block:not(.first) {
+  background: $bgColor;
+  height: 200px;
+  border: $border;
+  width: $blockWidht;
+  margin-bottom: 20px;
+}
+
+.first {
+  background: $bgColor;
+  border: $border;
+  width: $blockWidht;
+  height: 100px;
+  margin-bottom: 20px;
+}

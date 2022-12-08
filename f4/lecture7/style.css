@@ -1,0 +1,16 @@
+header {
+  background: red;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+header button {
+  background-color: blue;
+}
+header button:hover {
+  content: "Don't click me";
+}
+
+header button {
+  background-color: blue;
+}/*# sourceMappingURL=style.css.map */

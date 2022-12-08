@@ -1,0 +1,23 @@
+// Comments
+// Selectors
+
+$primaryColor: blue;
+$backColor: red;
+
+header {
+  background: $backColor;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  button {
+    background-color: $primaryColor;
+    &:hover {
+      content: "Don't click me";
+    }
+  }
+}
+
+header button {
+  background-color: $primaryColor;
+}
