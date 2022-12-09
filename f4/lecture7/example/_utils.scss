@@ -1,0 +1,16 @@
+@mixin flexStart($flexDirection, $fontSize: 16px ) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: $fontSize;
+    flex-direction: $flexDirection;
+
+}
+
+
+// $a : 100;
+// $b : 24px;
+
+@mixin setBackground($color){
+    background-color: $color;
+}
