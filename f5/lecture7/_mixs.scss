@@ -1,0 +1,25 @@
+@mixin setBackground {
+  background-color: $textColor;
+}
+
+@mixin displayColumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin displayRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+@mixin displayFlex($b: row, $a: purple) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $b;
+  background-color: $a;
+}

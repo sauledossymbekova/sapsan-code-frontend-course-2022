@@ -22,6 +22,36 @@ header button:first-child {
   border: solid 5px;
 }
 
+.container {
+  height: 600px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: purple;
+  margin: 10px;
+}
+.container div {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.main {
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: red;
+}
+.main img {
+  width: 200px;
+  margin: 10px;
+}
+
 .inverse {
   background-color: red;
   color: white;
@@ -40,21 +70,6 @@ body {
     background-color: aqua;
   }
 }
-.container {
-  margin: 10px;
-  background-color: white;
-  width: 500px;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.container div {
-  background-color: black;
-  width: 50px;
-  height: 50px;
-}
-
 input[type=text] {
   background: skyblue;
 }/*# sourceMappingURL=style.css.map */
