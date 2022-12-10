@@ -117,13 +117,51 @@
             - table имеет особенное отображение, на примере margin, pseudoselectors :nth-child()
             - как стилизовать форму?
                 разделить логически
+# 5
 
-        display чтобы все было не только вертикально
-        попробовать добавить чуть жизни от действия юзера 
+- css detailed
+    - display чтобы все было не только вертикально
+    - попробовать добавить чуть жизни от действия юзера 
+    - позиционирование
+    https://developer.mozilla.org/ru/docs/Web/CSS/position
+    - flex-box https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    - media https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+    - animation
 
-        позиционирование
-        media
 
+# 6
+- css advanced
+    - responsive vs adaptive
+    - responsive
+        - meta tag for viewport
+        - media
+        - images, text, units
+
+        - flex
+
+# 7
+- SASS
+    - как добавить sass в ваш проект?
+        - sass compiler, для чего он, как с ним работать
+        - комментарий
+    - переменные $, для чего они нужны, с примером
+    - вложенности, как в css, как в sass
+        - добавлять псевдо селекторы для элементов во вложенностях &:
+    - организация кода, разделение кода
+        - @import _someComponent (импорты)
+
+- 8
+        - @mixin @include 
+            add variables, style rules with it
+        - operators 
+        - functions
+        - @extend (наследование, inheritance)
+        - built in funct
+
+    - операторы
+
+- naming conventions and some css basics
+- some new selectors
 
 - Github
     - залить свой сайт
