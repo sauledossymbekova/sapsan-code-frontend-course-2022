@@ -1,0 +1,17 @@
+@import './header';
+
+@import './container';
+
+@function myFunction($a, $b){
+  // + - * %
+  @return $a + $b;
+}
+
+.main {
+  // 1500px % 1000px = 500px
+
+  width: myFunction(100px, 100px);
+  // width: 500px;
+  height: 500px;
+  background-color: aqua;
+}

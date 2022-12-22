@@ -1,0 +1,17 @@
+@use 'mixs';
+
+header {
+    @include mixs.myDisplay($justify: center, $align: flex-start, $flexDirection: row);
+    // @include setBackColor();
+  
+    padding: 30px;
+    button {
+      margin:10px;
+      width: 70px;
+      height: 40px;
+      background-color: skyblue;
+      &:hover {
+        background-color: red;
+      }
+    }
+  }

@@ -1,0 +1,10 @@
+@mixin myDisplay($flexDirection: column, $align: center, $justify: space-around) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $flexDirection;
+  }
+  
+  @mixin setBackColor($color: white){
+    background-color: $color;
+  }
