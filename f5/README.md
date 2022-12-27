@@ -150,7 +150,8 @@
     - организация кода, разделение кода
         - @import _someComponent (импорты)
 
-- 8
+# 8
+- Sass advanced
         - @mixin @include 
             add variables, style rules with it
         - operators 
@@ -165,3 +166,18 @@
 
 - Github
     - залить свой сайт
+
+# 9
+- Bootstrap
+# 10
+- Bootstrap
+
+# 11
+- JS
+    - variables (const, let, var)
+    - data types (number, string, boolean, ...)
+    - console, alert, prompt
+    
+    - math operators: + - / *
+    - conditional operator: if
+    - >= <= > <
