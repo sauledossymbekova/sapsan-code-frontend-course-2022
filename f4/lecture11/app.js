@@ -95,19 +95,47 @@
 // }
 
 // > < >= <=
-const legalAge = 18;
-const yourAge = prompt("Your age");
+// const legalAge = 18;
+// const yourAge = prompt("Your age");
 
-if(yourAge >= legalAge){
-    console.log('Go drink alcohol')
-} else if (yourAge < legalAge) {
-    console.log('No alcohol');
-}
+// if(yourAge >= legalAge){
+//     console.log('Go drink alcohol')
+// } else if (yourAge < legalAge) {
+//     console.log('No alcohol');
+// }
 
 // В какую возрастную группу входить человек
-// child 0-13 teens 13-21 young 21-30 adults 30-..
+// child 0-13 teens 13-21 young 21-30 adults 30-
+// Решение:
+// const age = prompt("Your age");
+
+// console.log(typeof age);
+
+// if (age < 14){
+//     console.log("You are child");
+// } else if(age < 22){
+//     console.log("You are teen");
+// } else if(age < 30){
+//     console.log("You are young");
+// } else if (age > 29){
+//     console.log("You are adult");
+// }
 
 //Напишите программу, которая будет считать процент жира в организме человека и будет выводить результат в консоль. Запрашивайте рост и окружность талии через prompt.
 // Формула:
 // Мужчины: 64 − (20 × рост/окружность талии)
 // Женщины: 76 − (20 × рост/окружность талии)
+
+// Решение:
+// const height = prompt("Your height");
+// const waist = prompt("Your waist");
+// const sign = prompt("Male/Female ?");
+// if(sign == "Female"){
+//     let percent = 76 - (20 * height/waist)
+//     console.log(percent);
+// } else if (sign=="Male"){
+//     console.log(64 - (20 * height/waist));
+// } else {
+//     console.log("Try again...")
+// }
+
