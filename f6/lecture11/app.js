@@ -129,27 +129,40 @@
 
 // > < >= <=
 
-const age = prompt("Age:");
+// const age = prompt("Age:");
 
-if (age >= 21){
-    alert("Иди пить алкоголь!")
-} else if (age < 21){
-    alert("Тебе нельзя алкоголь!");
-} else if(age == 0){
+// if (age >= 21){
+//     alert("Иди пить алкоголь!")
+// } else if (age < 21){
+//     alert("Тебе нельзя алкоголь!");
+// } else if(age == 0){
 
-}else {
-    alert("...")
-}
+// }else {
+//     alert("...")
+// }
 
-console.log( 10 > 9);
-console.log( 10 < 9);
+// console.log( 10 > 9);
+// console.log( 10 < 9);
 
 // ДЗ
 
 //1
 // В какую возрастную группу входить человек
 // child 0-13 teens 13-21 young 21-30 adults 30-..
+// Решение:
+// const age = prompt("Your age");
 
+// console.log(typeof age);
+
+// if (age < 14){
+//     alert("You are child");
+// } else if(age < 22){
+//     alert("You are teen");
+// } else if(age < 30){
+//     alert("You are young");
+// } else if (age > 29){
+//     alert("You are adult");
+// }
 
 //2
 //Напишите программу, которая будет считать процент жира в организме человека
@@ -157,9 +170,22 @@ console.log( 10 < 9);
 // Формула:
 // Мужчины: 64 − (20 × рост/окружность талии)
 // Женщины: 76 − (20 × рост/окружность талии)
+// Решение:
+const height = prompt("Your height");
+const waist = prompt("Your waist");
+const sign = prompt("Male/Female ?");
 
-if (sign == "Ж"){
-
-} else if() {
-
+if(sign == "Female"){
+    let percent = 76 - (20 * height/waist)
+    alert(percent);
+} else if (sign=="Male"){
+    alert(64 - (20 * height/waist));
+} else {
+    alert("Try again...")
 }
+
+// if (sign == "Ж"){
+
+// } else if() {
+
+// }
