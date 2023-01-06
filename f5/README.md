@@ -181,3 +181,11 @@
     - math operators: + - / *
     - conditional operator: if
     - >= <= > <
+
+# 12
+- JS
+    - solving problems
+    - logical operators == === && ||
+    - ternary operators (condition) ? :
+    - increment decrement
+    - += -= *= /=
