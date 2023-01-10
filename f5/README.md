@@ -189,3 +189,12 @@
     - ternary operators (condition) ? :
     - increment decrement
     - += -= *= /=
+
+# 13
+- JS
+    - solving problems
+    - Loop
+        - for
+        - while
+        - reverse loop
+    - += -= *= /=
