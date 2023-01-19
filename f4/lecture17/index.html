@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <h1>Lecture17!</h1>
+    <div id="title"></div>
+
+    <div id="info">
+      <!-- #info p -->
+      <p>1</p>
+      <p>2</p>
+    </div>
+
+    <div class="contacts">
+      <!-- .contacts a -->
+      <a>1</a>
+    </div>
+    <!-- <p>Test 1</p>
+    <p class="myClass">Test 2</p>
+    <p class="myClass">Test 3</p>
+
+    <p id="result"></p> -->
+    <h2 id="subtitle" onclick="myFunction()">Click on this text!</h2>
+    <script>
+      function myFunction() {
+        document.getElementById("subtitle").innerHTML = "Focus Pocus";
+      }
+    </script>
+
+    <!-- <script src="app.js"></script> -->
+  </body>
+</html>
