@@ -198,3 +198,17 @@
         - while
         - reverse loop
     - += -= *= /=
+...
+
+# 25
+- ReactJS
+    - why it is library?
+    - theory of Reactjs
+    - installation, creating first app
+    - HelloWorld Component with jsx, reactjs
+
+- ReactJS 
+    - concept of components
+    - props
+    - component with props
+    - theory about class components and functional components

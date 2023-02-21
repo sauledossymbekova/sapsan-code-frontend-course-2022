@@ -1,0 +1,12 @@
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.info {
+    margin: 0;
+    background-color: beige;
+    border-radius: 24px;
+
+}

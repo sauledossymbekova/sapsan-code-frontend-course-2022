@@ -1,9 +1,9 @@
 import './GreetingComponent.css'
 
-export function GreetingComponent() {
+export function GreetingComponent(props) {
   return (
     <div>
-      <h1> Hello Student!</h1>
+      <h1> Hello {props.name}!</h1>
     </div>
   );
 }
