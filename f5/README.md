@@ -212,3 +212,12 @@
     - props
     - component with props
     - theory about class components and functional components
+
+- ReactJS
+    - rendering
+    - key: Each child in a list should have a unique "key" prop
+    - &&
+    - useState
+    - event handling
+    - imprort/export
+    - style={{}}
