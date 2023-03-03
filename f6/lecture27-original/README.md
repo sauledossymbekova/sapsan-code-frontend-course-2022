@@ -1,0 +1,13 @@
+- ReactJS 
+    - concept of components example based on functional components
+        some rules: 
+            - naming of components +
+            - return = JSX markup +
+            - nesting and organizing +
+            - export default, export  +
+            - import, multiple imports, './MyComponent.js' = './MyComponent' +
+            - close tags <img> => <img /> +
+            - camelCase +
+            - {js} +
+            - React Fragment => one root element +
+    - props, component with props 
