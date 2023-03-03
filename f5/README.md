@@ -221,3 +221,14 @@
     - event handling
     - imprort/export
     - style={{}}
+
+- ReactJS
+    - send functions as props: render props
+        - theme button example
+    - lift state up
+        - with collapsable posts example
+    - destructing props
+    - example of sending prop from header, langSettings
+    - passing objects to props
+    - props with the JSX spread syntax 
+        - profile, avatar example
