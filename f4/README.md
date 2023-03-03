@@ -215,4 +215,29 @@
     - ts: 
         type annotation
         interfaces
+
+- ReactJS
+    - rendering
+    - key: Each child in a list should have a unique "key" prop
+    - &&
+    - useState
+    - event handling
+    - imprort/export
+    - style={{}}
         
+- ReactJS
+    - rendering depends on state and props
+    - class/function comp difference
+    - hooks = state, lifecycle methods
+    - repeating usestate
+
+- ReactJS
+    - send functions as props: render props
+        - theme button example
+    - lift state up
+        - with collapsable posts example
+    - destructing props
+    - example of sending prop from header, langSettings
+    - passing objects to props
+    - props with the JSX spread syntax 
+        - profile, avatar example
