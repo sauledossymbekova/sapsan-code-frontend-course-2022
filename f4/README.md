@@ -207,7 +207,7 @@
     - installation, creating first app
     - HelloWorld Component with jsx, reactjs
 
-- ReactJS 
+- ReactJS components, props
     - concept of components
     - props
     - component with props
@@ -216,7 +216,7 @@
         type annotation
         interfaces
 
-- ReactJS
+- ReactJS rendering
     - rendering
     - key: Each child in a list should have a unique "key" prop
     - &&
@@ -225,13 +225,13 @@
     - imprort/export
     - style={{}}
         
-- ReactJS
+- ReactJS state and props, useState
     - rendering depends on state and props
     - class/function comp difference
     - hooks = state, lifecycle methods
     - repeating usestate
 
-- ReactJS
+- ReactJS render props
     - send functions as props: render props
         - theme button example
     - lift state up
@@ -239,5 +239,13 @@
     - destructing props
     - example of sending prop from header, langSettings
     - passing objects to props
+
+- ReactJS lifecycle methods
+    - lang feature based on last lecture task
+    - card collapse based on last lecture task
+    - theory life cycle methods: https://youtu.be/0UbkJ6Izue8 18:50
+    - hooks
     - props with the JSX spread syntax 
         - profile, avatar example
+    - hw: make counter with class components
+    - start todolist
