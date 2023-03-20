@@ -6,7 +6,8 @@ export const Clock = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setTime(new Date().toLocaleTimeString());
-    }, 1000);
+    }, 3000);
+
     return () => clearInterval(interval);
   }, []);
   

@@ -9,7 +9,6 @@ function App() {
       {/* <Timer/> */}
       {/* <Clock/> */}
       <Scroll/>
-      {/* <h1 id="my-id">Hello</h1> */}
 
     </div>
   );

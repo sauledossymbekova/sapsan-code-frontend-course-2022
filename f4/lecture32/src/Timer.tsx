@@ -8,7 +8,7 @@ export const Timer = () => {
       console.log("Hello, World!");
     }, 3000);
 
-    return () => clearTimeout(timer);
+    return () => clearTimeout(timer); // componentWillUnmount
   }, []);
 
   return (

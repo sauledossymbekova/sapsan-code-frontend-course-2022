@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import "./Scroll.css";
 
 export const Scroll = () => {
+  
   useEffect(() => {
     const element = document.getElementById("my-id");
 
@@ -19,13 +20,11 @@ export const Scroll = () => {
       <img src={url} alt="MyAvatarPhoto" className="avatar" />
       <img src={url} alt="MyAvatarPhoto" className="avatar" />
       <img src={url} alt='MyAvatarPhoto'className="avatar"/>
-
       <h1 id="my-id">Hello</h1>
       <img src='https://cdn.wallpapersafari.com/51/27/k7gXOb.jpg' alt='MyAvatarPhoto'className="avatar"/>
       <img src={url} alt='MyAvatarPhoto'className="avatar"/>
       <img src={url} alt='MyAvatarPhoto'className="avatar"/>
       <img src={url} alt='MyAvatarPhoto'className="avatar"/>
-
     </>
   );
 };
