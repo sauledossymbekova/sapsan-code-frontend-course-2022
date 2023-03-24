@@ -1,0 +1,17 @@
+.app {
+  height: 400px;
+  width: 400px;
+  border: 5px solid red;
+}
+
+.main{
+  height: 300px;
+  width: 300px;
+  border: 4px solid green;
+}
+
+.banner{
+  height: 200px;
+  height: 200px;
+  border: 3px solid blue;
+}
